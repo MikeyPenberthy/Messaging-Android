@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "102630931243",
+    "firebase_url": "https://prestomessaging.firebaseio.com",
+    "project_id": "prestomessaging",
+    "storage_bucket": "prestomessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102630931243:android:2c524409a577692d",
+        "android_client_info": {
+          "package_name": "com.example.michaelpenberthy.messaging_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102630931243-nk2gnaui4j5d9theid9rk9efg28i4r53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxXSjFZ_yFrRHpHlg1YpDgThwmlpZXFe4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
