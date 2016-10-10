@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f0f0f0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="2.5dp"
+    android:paddingBottom="2.5dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/messageContainerLayout"
+        android:gravity="bottom"
+        android:layout_alignParentLeft="true">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/matchImageViewContainerLayout">
+
+            <com.loopj.android.image.SmartImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:id="@+id/matchImageView"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:src="@drawable/circle_mask_light"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+
+        <io.github.rockerhieu.emojicon.EmojiconTextView
+            android:id="@+id/messageEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:ellipsize="none"
+            android:maxLines="20"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textIsSelectable="true" />
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userImageViewContainerLayout">
+
+            <com.loopj.android.image.SmartImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:id="@+id/userImageView"
+                android:visibility="visible"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:src="@drawable/circle_mask_light"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

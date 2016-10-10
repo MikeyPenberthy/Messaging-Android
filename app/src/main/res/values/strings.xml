@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Messaging-Android</string>
+    <string name="facebook_app_id">100970650360274</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="send_text">Send</string>
+    <string name="new_message">New Message</string>
+
+    <color name="colorLightGray">#F0F0F0</color>
+    <color name="colorBlueChatBubble">#0A82E6</color>
+    <color name="colorText">#666666</color>
+</resources>
